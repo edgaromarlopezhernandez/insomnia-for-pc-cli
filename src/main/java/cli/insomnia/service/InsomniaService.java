@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 @Service
 public class InsomniaService {
 
-    public void moveMouse() throws InterruptedException, IOException {
+    public void insomnia() throws InterruptedException, IOException {
         LocalDateTime currentTime = LocalDateTime.now();
         LocalDateTime stopFlag = currentTime.plusSeconds(14);
         System.out.println("Let's try to avoid this PC going to sleep...");
